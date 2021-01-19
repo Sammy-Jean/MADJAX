@@ -1,0 +1,98 @@
+
+/* Universal Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+background-color: #000;
+font-family: 'Roboto', sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+
+}
+section {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+/*====================
+
+Header Styling
+
+
+======================= */
+header {
+  margin-bottom: 100px;
+}
+
+.jumbotron1 {
+  background: url('../images/mj-storm-features-02.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  opacity: 0.95;
+  text-shadow: 1px 1px #000;
+  width: 100%;
+  max-width: 100%;
+  background-position: center;
+}
+
+.container {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+.container h1 {
+  font-size: 100px;
+}
+
+.container h3 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.container p {
+  font-size: 25px;
+}
+
+
+
+/* features styling  */
+
+
+.container3 {
+  color: black;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Map Styles */
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
